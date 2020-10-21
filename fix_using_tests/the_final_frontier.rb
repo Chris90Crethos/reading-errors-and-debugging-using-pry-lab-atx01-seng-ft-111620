@@ -1,7 +1,7 @@
 # don't forget to add: require 'pry'
 
-def generate_star_date.to_s
-  (rand(100000) + 400000) / 10.0
+def generate_star_date
+  ((rand(100000) + 400000) / 10.0).to_s
 end
 
 
